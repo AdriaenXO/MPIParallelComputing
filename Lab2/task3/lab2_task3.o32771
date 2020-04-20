@@ -1,0 +1,64 @@
+CPU number 1 wants to receive a number 0 from CPU number 0
+CPU number 2 wants to receive a number 0 from CPU number 1
+CPU number 12 wants to receive a number 0 from CPU number 11
+CPU number 4 wants to receive a number 0 from CPU number 3
+CPU number 8 wants to receive a number 0 from CPU number 7
+CPU number 3 wants to receive a number 0 from CPU number 2
+CPU number 15 wants to receive a number 0 from CPU number 14
+CPU number 6 wants to receive a number 0 from CPU number 5
+CPU number 9 wants to receive a number 0 from CPU number 8
+CPU number 0 wants to send a number 92 to CPU number 1
+CPU number 0 sent a number 92 to CPU number 1
+CPU number 0 wants to receive a number 92 from CPU number 15
+CPU number 13 wants to receive a number 0 from CPU number 12
+CPU number 5 wants to receive a number 0 from CPU number 4
+CPU number 10 wants to receive a number 0 from CPU number 9
+CPU number 1 received a number 92 from CPU number 0
+CPU number 1 wants to send a number 175 to CPU number 2
+CPU number 14 wants to receive a number 0 from CPU number 13
+CPU number 7 wants to receive a number 0 from CPU number 6
+CPU number 11 wants to receive a number 0 from CPU number 10
+CPU number 1 sent a number 175 to CPU number 2
+CPU number 12 received a number 1005 from CPU number 11
+CPU number 12 wants to send a number 1088 to CPU number 13
+CPU number 4 received a number 341 from CPU number 3
+CPU number 4 wants to send a number 424 to CPU number 5
+CPU number 4 sent a number 424 to CPU number 5
+CPU number 8 received a number 673 from CPU number 7
+CPU number 8 wants to send a number 756 to CPU number 9
+CPU number 8 sent a number 756 to CPU number 9
+CPU number 2 received a number 175 from CPU number 1
+CPU number 2 wants to send a number 258 to CPU number 3
+CPU number 2 sent a number 258 to CPU number 3
+CPU number 12 sent a number 1088 to CPU number 13
+CPU number 5 received a number 424 from CPU number 4
+CPU number 5 wants to send a number 507 to CPU number 6
+CPU number 5 sent a number 507 to CPU number 6
+CPU number 9 received a number 756 from CPU number 8
+CPU number 9 wants to send a number 839 to CPU number 10
+CPU number 9 sent a number 839 to CPU number 10
+CPU number 3 received a number 258 from CPU number 2
+CPU number 3 wants to send a number 341 to CPU number 4
+CPU number 13 received a number 1088 from CPU number 12
+CPU number 13 wants to send a number 1171 to CPU number 14
+CPU number 6 received a number 507 from CPU number 5
+CPU number 6 wants to send a number 590 to CPU number 7
+CPU number 6 sent a number 590 to CPU number 7
+CPU number 10 received a number 839 from CPU number 9
+CPU number 10 wants to send a number 922 to CPU number 11
+CPU number 10 sent a number 922 to CPU number 11
+CPU number 3 sent a number 341 to CPU number 4
+CPU number 13 sent a number 1171 to CPU number 14
+CPU number 7 received a number 590 from CPU number 6
+CPU number 7 wants to send a number 673 to CPU number 8
+CPU number 11 received a number 922 from CPU number 10
+CPU number 11 wants to send a number 1005 to CPU number 12
+CPU number 0 received a number 1337 from CPU number 15
+CPU number 14 received a number 1171 from CPU number 13
+CPU number 14 wants to send a number 1254 to CPU number 15
+CPU number 14 sent a number 1254 to CPU number 15
+CPU number 7 sent a number 673 to CPU number 8
+CPU number 11 sent a number 1005 to CPU number 12
+CPU number 15 received a number 1254 from CPU number 14
+CPU number 15 wants to send a number 1337 to CPU number 0
+CPU number 15 sent a number 1337 to CPU number 0

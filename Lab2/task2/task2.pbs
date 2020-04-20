@@ -1,0 +1,7 @@
+#PBS -l nodes=4:ppn=4
+
+#PBS -N lab2_task2
+
+#PBS -j oe
+
+mpiexec ~/lab2/task2/task2

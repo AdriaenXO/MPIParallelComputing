@@ -1,0 +1,8 @@
+CPU number 1 wants to receive a number 0 from CPU number 0
+CPU number 0 wants to send a number 67 to CPU number 1
+CPU number 0 sent a number 67 to CPU number 1
+CPU number 0 wants to receive a number 67 from CPU number 1
+CPU number 1 received a number 67 from CPU number 0
+CPU number 1 wants to send a number 150 to CPU number 0
+CPU number 1 sent a number 150 to CPU number 0
+CPU number 0 received a number 150 from CPU number 1
