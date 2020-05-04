@@ -88,7 +88,7 @@ int main(int argc, char** argv) {
                                   });
     } else {
       // generate random values
-      int dimensions = 4;
+      int dimensions = 2048;
       matrix_size = dimensions * dimensions;
 
       // https://www.fluentcpp.com/2019/05/24/how-to-fill-a-cpp-collection-with-random-values/
@@ -114,7 +114,7 @@ int main(int argc, char** argv) {
       printf("%s", matrix_to_string(matrix, "Matrix").c_str());
       printf("%s", matrix_to_string(vector, "Vector").c_str());
     }
-    start = std::chrono::steady_clock::now();
+    // start = std::chrono::steady_clock::now();
   }
   // get matrix size
   MPI_Bcast(&matrix_size, 1, MPI_INT, 0, MPI_COMM_WORLD);
@@ -143,8 +143,10 @@ int main(int argc, char** argv) {
 
   // multiply submatrix
   std::vector<DATATYPE> subresult(vector_elements_per_proc, 0);
+  start = std::chrono::steady_clock::now();
   parallelMatrixVectorMult(submatrix, subvector, subresult, matrix_dimension,
                            myrank);
+  end = std::chrono::steady_clock::now();
   // printf("CPU %d %s", myrank, matrix_to_string(subresult,
   // "Subresult").c_str());
 
@@ -153,7 +155,7 @@ int main(int argc, char** argv) {
   MPI_Gather(subresult.data(), subresult.size(), MPI_INT, final_result.data(),
              subresult.size(), MPI_INT, 0, MPI_COMM_WORLD);
   if (myrank == 0) {
-    end = std::chrono::steady_clock::now();
+    // end = std::chrono::steady_clock::now();
     if (printResults) {
       printf("%s", matrix_to_string(final_result, "Final result").c_str());
     }
