@@ -1,0 +1,7 @@
+#PBS -l nodes=1:ppn=4
+
+#PBS -N lab5
+
+#PBS -j oe
+
+mpiexec ~/lab5/lab5
