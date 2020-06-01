@@ -1,0 +1,7 @@
+#PBS -l nodes=8:ppn=1
+
+#PBS -N partitioning
+
+#PBS -j oe
+
+mpiexec ~/lab6/partitioning/partitioning

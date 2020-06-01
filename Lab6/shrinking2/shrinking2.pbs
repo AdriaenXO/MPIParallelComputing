@@ -1,0 +1,7 @@
+#PBS -l nodes=2:ppn=1
+
+#PBS -N shrinking2
+
+#PBS -j oe
+
+mpiexec ~/lab6/shrinking2/shrinking2
